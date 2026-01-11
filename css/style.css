@@ -189,3 +189,46 @@ nav ul li a:hover {
   transform: translateY(-6px);
   border-color: var(--maroon);
 }
+/* =====================
+   PRIZES SECTION
+===================== */
+.prizes-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.prizes-section h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.prizes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.prize-card {
+  background-color: #111;
+  border: 1px solid var(--grey);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.prize-card h3 {
+  color: var(--maroon);
+  margin-bottom: 10px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.prize-note {
+  margin-top: 30px;
+  color: var(--grey);
+  font-size: 14px;
+}
